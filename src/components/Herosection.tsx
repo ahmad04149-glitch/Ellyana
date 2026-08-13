@@ -5,7 +5,7 @@ import { Phone, Sparkles, ArrowDown } from "lucide-react";
 export function HeroSection() {
   return (
     <section
-      aria-label="Introduction"
+      aria-label="Introduction to Nila Ellyana"
       className="relative overflow-hidden bg-background px-6 py-10 sm:px-10 lg:px-16"
     >
       {/* Grid backdrop */}
@@ -31,22 +31,21 @@ export function HeroSection() {
           <div>
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-medium text-primary">
               <span className="relative flex h-2 w-2">
-                <span className="motion-safe:animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-60" />
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
+                <span className="motion-safe:animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-60" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
               </span>
               Open to new opportunities
             </div>
 
             <h1 className="text-4xl font-bold leading-[1.1] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              <span className="text-primary">Building better</span> customer
-              experiences.
+              Nila Ellyana
             </h1>
 
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground sm:text-base">
-              I&apos;m Nila Ellyana, a Customer Success and Client Onboarding
-              professional and Business Development specialist. This is my
-              portfolio site — here I&apos;m presenting my experience and
-              impact. Let&apos;s explore.
+              Customer Success and Client Onboarding professional with
+              experience in Business Development. I focus on building strong
+              client relationships, creating seamless onboarding experiences,
+              and helping customers achieve long-term value.
             </p>
 
             <div className="mt-9 flex flex-wrap items-center gap-4">
@@ -64,6 +63,7 @@ export function HeroSection() {
                 <Phone className="mr-2 h-4 w-4" />
                 Contact me
               </Button>
+
               <Button
                 size="lg"
                 variant="outline"
@@ -88,7 +88,7 @@ export function HeroSection() {
             <div className="relative aspect-4/5 overflow-hidden rounded-t-full rounded-b-3xl border border-border bg-card shadow-2xl shadow-primary/20">
               <img
                 src="/nila-portrait.png"
-                alt="Portrait of Nila Ellyana"
+                alt="Nila Ellyana, Customer Success and Client Onboarding professional"
                 className="h-full w-full object-cover object-top"
               />
             </div>
