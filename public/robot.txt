@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ellyana.vercel.app/sitemap.xml
