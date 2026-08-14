@@ -4,6 +4,7 @@ import { AboutMe } from "./components/Aboutsection"
 import { EducationAchievements } from "./components/EducationAchievements"
 import { ContactSection } from "./components/Contactsection"
 import { Navbar } from "./components/Navbar"
+import { Footer } from "./components/Footer"
 
 export function App() {
   return (
@@ -14,6 +15,7 @@ export function App() {
 <ExperienceSection />
 <EducationAchievements />
 <ContactSection />
+<Footer />
 </>
   )
 }
